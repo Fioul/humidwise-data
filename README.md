@@ -1,16 +1,16 @@
 # humidwise-data
 
-Open data behind [Humidwise](https://humidwise.com/), an independent U.S. dehumidifier comparison built on public data. Updated 2026-10-07.
+Open data behind [Humidwise](https://humidwise.com/), an independent U.S. dehumidifier comparison built on public data. Updated 2026-10-16.
 
 | File | What it holds | Rows |
 | --- | --- | --- |
-| [dehumidifiers.csv](dehumidifiers.csv) | Every ENERGY STAR® certified dehumidifier on the EPA list that is sold in the United States, one row per model, grouped the way Humidwise groups them. `also_sold_as` lists the same model’s other listings and brand names | 476 |
+| [dehumidifiers.csv](dehumidifiers.csv) | Every ENERGY STAR® certified dehumidifier on the EPA list that is sold in the United States, one row per model, grouped the way Humidwise groups them. `also_sold_as` lists the same model’s other listings and brand names | 482 |
 | [state-study.csv](state-study.csv) | Humid months a year and the yearly cost to run a dehumidifier, for the 50 states and DC | 51 |
 | [noaa-stations.csv](noaa-stations.csv) | Normal dew point for each month and humid months a year, for each NOAA station used | 445 |
 
 ## Sources
 
-- **EPA**: ENERGY STAR Certified Dehumidifiers, [data.energystar.gov](https://data.energystar.gov/d/mgiu-hu4z). List updated 2026-10-04, read 2026-10-05. Pints a day come from the DOE 2019 test (10 CFR 430, Appendix X1). Yearly energy use is left blank for whole-house units: their EPA yearly figures don’t follow one method that we can cite.
+- **EPA**: ENERGY STAR Certified Dehumidifiers, [data.energystar.gov](https://data.energystar.gov/d/mgiu-hu4z). List updated 2026-10-14, read 2026-10-15. Pints a day come from the DOE 2019 test (10 CFR 430, Appendix X1). Yearly energy use is left blank for whole-house units: their EPA yearly figures don’t follow one method that we can cite.
 - **NOAA**: Palecki, M.; Durre, I.; Applequist, S.; Arguez, A.; Lawrimore, J. (2021). U.S. Climate Normals 2020: U.S. Hourly Climate Normals (1991-2020). NOAA National Centers for Environmental Information. https://doi.org/10.25921/e3zh-ag77 (accessed 2026-10-05).
 - **EIA**: Electric Power Monthly, Table 5.6.A, average residential price by state, 2026-07.
 
